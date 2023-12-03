@@ -1,7 +1,7 @@
 # Jarkom-Modul-4-A14-2023
 
 ## Pembagian subnet
-Berikut ini adalah pembagian subnet kami, nilai netmask sendiri dihitung dengan menggunakan rumus berikut $32-ceil(\log{_2}(jumlah IP + 2)$   
+Berikut ini adalah pembagian subnet kami, nilai netmask sendiri dihitung dengan menggunakan rumus berikut $32-ceil(\log{_2}(jumlah IP + 2))$   
 
 ![pembagian subnet](images/pembagian-rute.png)
 

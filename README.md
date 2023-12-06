@@ -13,6 +13,8 @@ Sehingga pembagian IP yang ada adalah seperti berikut
 
 Pada VLSM sendiri kami menggunakan GNS untuk implementasinya. Konfigurasi dan subrouting pada tiap node dapat dilihat di bawah ini
 
+### Pembagian IP
+
 ### AURA
 **Konfigurasi**
 ```sh
@@ -471,7 +473,9 @@ iface eth0 inet static
 	netmask 255.255.255.0
 	gateway 10.6.9.1
 ```
-
+### Tabel Pembagian IP Setiap Node
+![Pembagian IP VLSM](images/ip-subnet-vlsm-1.png)
+![Pembagian IP VLSM](images/ip-subnet-vlsm-2.png)
 
 ## CIDR
 Pada CIDR, subnet-subnet akan digabung gabungkan hingga akhirnya akan didapatkan 1 subnet besar yang mencakup seluruh topologi  
@@ -487,3 +491,9 @@ Dengan penggabungan-penggabungan tersebut, berikut ini adalah ilustrasi tree yan
 ![tree pembagian IP CIDR](images/CIDR.png)  
 Sehingga pembagian IP yang ada adalah seperti berikut  
 ![Pembagian IP CIDR](images/pembagian-ip-cidr.png)  
+
+Berikut adalah Konfigurasi dari masing - masing node pada Cisco Pakcet Tracer (CIDR)
+
+![IP Router CIDR](./images/ip-node-cidr-1.png)
+![IP Router CIDR](./images/ip-node-cidr-2.png)
+![IP Router CIDR](./images/ip-client-cidr-1.png)
